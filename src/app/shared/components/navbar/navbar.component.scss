@@ -1,0 +1,12 @@
+.navbar-buttons {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  button {
+    display: block;
+  }
+}
+.active {
+  background-color: #f44336;
+}

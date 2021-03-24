@@ -1,0 +1,14 @@
+<section>
+  <div class="back-button">
+    <a [routerLink]="[ '/'+topic]"> &#60;&#60;&#60; Back </a>
+  </div>
+  <div class="content">
+    <mat-card class="content__card-wrapper">
+        <mat-card-title class="content__title">{{ post?.title }}</mat-card-title>
+    </mat-card>
+    <img class="content__image" [src]="post?.image" />
+    <mat-card class="content__card-wrapper">
+        <mat-card-content>{{ post?.body }}</mat-card-content>
+    </mat-card>
+  </div>
+</section>

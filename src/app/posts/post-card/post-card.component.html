@@ -1,0 +1,12 @@
+<mat-card class="post-card">
+  <mat-card-header>
+    <mat-card-title>{{ post?.title }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="post?.image" />
+  <mat-card-content>
+    <p>{{ post?.description }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button [routerLink]="[ '/'+post?.topic, post?.id ]">Read more</button>
+  </mat-card-actions>
+</mat-card>

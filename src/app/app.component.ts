@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'it-blog-test-task';
+  readonly title = 'it-blog-test-task';
 }

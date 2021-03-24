@@ -1,0 +1,11 @@
+<div class="navbar-buttons">
+  <button
+    mat-raised-button
+    color="accent"
+    *ngFor="let topic of topics"
+    [routerLink]="[topic]"
+    routerLinkActive="active"
+  >
+    <a>{{ topic }}</a>
+  </button>
+</div>

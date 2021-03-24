@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.drawer-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.drawer-sidenav-content {
+  height: 100%;
+  margin-top: 56px;
+}
+
+.drawer-sidenav {
+  padding: 20px;
+  position: fixed;
+  height: calc(100% - 56px);
+  left: 0;
+  top: 56px;
+}
+
+
